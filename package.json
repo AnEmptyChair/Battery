@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/AnEmptyChair/Battery/issues"
   },
-  "homepage": "https://github.com/AnEmptyChair/Battery#readme"
+  "homepage": "https://github.com/AnEmptyChair/Battery#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
