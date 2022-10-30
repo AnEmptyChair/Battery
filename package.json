@@ -1,0 +1,23 @@
+{
+  "name": "battery",
+  "version": "1.0.0",
+  "description": "An Apex Legends Backpack Management overlay powered by Tracker Network.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnEmptyChair/Battery.git"
+  },
+  "keywords": [
+    "Apex",
+    "Legends"
+  ],
+  "author": "Calvin Brown",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AnEmptyChair/Battery/issues"
+  },
+  "homepage": "https://github.com/AnEmptyChair/Battery#readme"
+}
