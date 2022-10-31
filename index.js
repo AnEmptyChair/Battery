@@ -2,6 +2,12 @@
 import * as dotenv from 'dotenv';
 dotenv.config()
 
+import { fileURLToPath } from 'url';
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
+// Import path module to send files
+import path from 'path';
+
 // Importing Express
 import express from 'express';
 
@@ -10,7 +16,9 @@ const app = express();
 
 // Routes Section //
 app.get('/', (req, res) => {
-    res.send('<h1>Hello New World :)')
+    // res.send('<h1>Hello New World :)');
+    res.sendFile(path.join(__dirname, 'static', 'index.html'));
+
 });
 
 const PORT = process.env.PORT || 5001;
