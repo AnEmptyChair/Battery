@@ -1,10 +1,17 @@
-require('dotenv').config() // Loading Environment Varibles to the entry point
+// Loading Environment Varibles in the projects entry point.
+import * as dotenv from 'dotenv';
+dotenv.config()
 
 // Importing Express
-const express = require('express');
+import express from 'express';
 
 // Initilizing variable, 'app' via express
 const app = express();
+
+// Routes Section //
+app.get('/', (req, res) => {
+    res.send('<h1>Hello New World :)')
+});
 
 const PORT = process.env.PORT || 5001;
 
